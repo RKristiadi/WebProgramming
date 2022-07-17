@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Web Programing</title>
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu&display=swap" rel="stylesheet">
+
+  <!-- bootstrap script-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- CSS stylesheet -->
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Nav Bar -->
+
+  <div class="container-fluid colored-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="https://www.unsia.ac.id/?utm_source=amm"> <img class="logo_img" src="images\logo.png" alt="logo"> </a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about-us">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cta">Video</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-us">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="container-fluid background-content">
+    <div class="container-pages">
+      <div class="row" style="padding:50px 0 ;">
+        <div class="card col-md-6 materi-belajar mx-auto">
+          <br>
+          <h1>CSS</h1>
+		  <p>CSS adalah bahasa kedua setelah HTML yang harus dipelajari seorang web developer.
+Pengetahuan tentang CSS sangatlah penting bagi seorang web developer, karena dengan CSS kita bisa:
+<li>Halaman landing page yang menarik</li>
+<li>Template atau tema blog</li>
+<li>Mengubah PSD (Desain web) menjadi HTML,
+dan sebagainya.</li></p>
+			
+			<br>
+		  <p>CSS (Cascade Style Sheet) meruapakan sebuah bahasa untuk mengatur tampilan web sehingga terlihat lebih menarik dan indah. Dengan CSS, kita dapat mengatur layout (tata letak), warna, font, garis, dan lain-lain. CSS pertama kali diperkenalkan oleh Håkon Wium Lie pada tahun 1994.</p>			
+
+<p>
+			Sejak awal diperkenalkan CSS memiliki beberapa variasi:
+<li>CSS 1: adalah versi pertama (17 Desember 1996)</li>
+<li>CSS 2: adalah versi ke-2 (Mei 1998)</li>
+<li>CSS 2.1: (7 juni 2011)</li>
+<li>CSS 3: (2012)</li>
+<li>CSS 4: masih dalam pengembangan.</li>
+<p>Apa bedanya dari setiap versi tersebut? Tentunya ada penambahan dan pengurangan
+  </p>
+  </p>
+		  
+		<p>Struktur kode CSS terdiri dari tiga bagian:
+Selektor;
+Blok Deklarasi;
+Properti dan nilanya. </p>
+		<p><strong>Selektor</strong> adalah kata kunci untuk memilih elemen HTML yang akan kita atur. Contohnya: </p>
+		  <div class="card" style="background-color: #DDDDDD;">
+		<pre><code class="language-css">
+ h1 {
+	 color: red;
+	 }</code></pre></div>
+		  <p>
+		    Artinya: Kita memilih semua elemen                    
+		  <code class="languange-html"> &lt;h1&gt; </code> , lalu diberikan warna teks red (merah).
+Selektor dapat berupa nama tag, class, id, dan atribut.
+</p>
+	
+		<p><strong>Blok deklarasi</strong> adalah tempat kita menuliskan atribut-atibut CSS yang akan diberikan ke pada selektor.
+Contoh:
+		  <div class="card" style="background-color: #DDDDDD;"> <pre><code class="language-css">p {
+    font-size: 18px;
+} </code></pre></div>
+		  Artinya, kita akan mengatur ukuran font dari tag <code class="languange-html"> &lt;p&gt; </code> sebesar 18px.
+Blok deklarasi dimulai atau dibuka dengan tanda kurung { lalu ditutup dengan }.</p>
+		  <p><strong>Properti</strong> merupakan atribut atau sekumpulan aturan yang akan diberikan kepada elemen yang dipilih.
+properti: "nilai";
+Setiap properti harus diakhiri dengan titik koma (;). Apabila hanya terdapat satu properti, boleh tidak menggunakan titik koma.
+Properti harus ditulis di dalam blok deklarasi.</p>
+
+<p>Penulisan kode CSS di HTML dapat dilakukan di dalam tag <code class="languange-html">&lt;style&gt;</code>. Tag tersebut dapat ditulis di dalam tag <code class="languange-html"> &lt;head&gt; </code>atau <code class="languange-html">&lt;body&gt;</code>.</p>
+
+
+		
+<h6><span style="font-size: x-small"><em>Sumber : Pemrograman Web I (UNSIA)</em></span><em><br>
+</em></h6>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+
+  <!-- <Contact Us> -->
+  <div class="container-fluid" id="contact-us">
+    <div class="row">
+      <div class="col-md-6 col-sm12 mx-auto" style="color:white; width:25rem;">
+        <h3>Contact Us</h3>
+        <div class="card">
+          <div class="card-body" style="color:black;">
+            <form action="https://formsubmit.co/f3bdb7e244bcaf21a9be1b968df72f1d" method="post">
+              <input type="text" class="field" name="name" placeholder="Nama Lengkap">
+              <input type="email" name="email" placeholder="Email">
+              <input type="number" name="phone" placeholder="No Telepon">
+              <textarea name="message" data-length="150" rows="3" cols="25" placeholder="Pesan"></textarea>
+              <button type="button submit" class="btn btn-outline-dark btn-block col-3">Kirim</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm12 mx-auto" style="color:white; width:25rem;">
+        <h3>Link Web Tutorial Rekomendasi</h3>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <a href="https://getbootstrap.com/docs/5.1/getting-started/introduction/">
+              <li class="list-group-item">Bootstrap</li>
+            </a>
+            <a href="https://www.w3schools.com/">
+              <li class="list-group-item">w3schools</li>
+            </a>
+            <a href="https://www.petanikode.com/">
+              <li class="list-group-item">Petani Kode</li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p class="copyright" style="padding:1rem; background-color:#2B2B2B; margin-bottom:0; color:white;">© Copyright 2022 Kelompok Kristian, Raymond & Rudy</p>
+  </footer>
+
+  <!--bootstrap -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
